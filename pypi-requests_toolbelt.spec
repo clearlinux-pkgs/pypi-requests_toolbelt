@@ -17,12 +17,12 @@ BuildRequires : buildreq-distutils3
 Provides: requests-toolbelt
 Provides: requests-toolbelt-python
 Provides: requests-toolbelt-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(requests)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 =====================
