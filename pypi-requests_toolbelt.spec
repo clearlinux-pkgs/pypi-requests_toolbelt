@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_toolbelt
 Version  : 0.9.1
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/28/30/7bf7e5071081f761766d46820e52f4b16c8a08fef02d2eb4682ca7534310/requests-toolbelt-0.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/28/30/7bf7e5071081f761766d46820e52f4b16c8a08fef02d2eb4682ca7534310/requests-toolbelt-0.9.1.tar.gz
 Summary  : A utility belt for advanced users of python-requests
@@ -14,15 +14,12 @@ Requires: pypi-requests_toolbelt-license = %{version}-%{release}
 Requires: pypi-requests_toolbelt-python = %{version}-%{release}
 Requires: pypi-requests_toolbelt-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: requests-toolbelt
-Provides: requests-toolbelt-python
-Provides: requests-toolbelt-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(requests)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 =====================
@@ -77,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641489465
+export SOURCE_DATE_EPOCH=1649700316
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
