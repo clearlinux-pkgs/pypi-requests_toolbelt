@@ -5,7 +5,7 @@
 #
 Name     : pypi-requests_toolbelt
 Version  : 1.0.0
-Release  : 39
+Release  : 40
 URL      : https://files.pythonhosted.org/packages/f3/61/d7545dafb7ac2230c70d38d31cbfe4cc64f7144dc41f6e4e4b78ecd9f5bb/requests-toolbelt-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f3/61/d7545dafb7ac2230c70d38d31cbfe4cc64f7144dc41f6e4e4b78ecd9f5bb/requests-toolbelt-1.0.0.tar.gz
 Summary  : A utility belt for advanced users of python-requests
